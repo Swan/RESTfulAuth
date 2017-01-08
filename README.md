@@ -32,3 +32,10 @@ Run MongoDB
 Start the server
 
 `node app.js`
+
+# License
+All code in this repository is licensed under the MIT license.
+
+Which basically means you can do what ever your heart desires with this source.
+
+See the "LICENSE" file for more information.

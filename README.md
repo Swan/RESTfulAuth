@@ -26,7 +26,7 @@ Install all dependencies
 `npm install express.js body-parser ejs express-sanitzer express-session method-override mongoose passport passport-local passport-local-mongoose --save`
 
 Add your own express session secret in app.js
-````
+````javascript
 app.use(require("express-session")({
     secret: "YOUR SECRET GOES HERE", 
     resave: false,

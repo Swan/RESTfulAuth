@@ -1,0 +1,31 @@
+<% include partials/header %>
+
+<div class="ui main text container">
+    
+    <div class="ui huge header"><i class="icon code"></i>RESTfulAuth</div>
+    <div class="ui header">~ A simple example of doing auth with REST using Express.js</div>
+    
+    <div class="ui top attached segment">
+        
+        <div class="ui divided items">
+            <div class="item">
+                <div class="ui huge header center"><i class="tiny user pointer icon"></i>Log In</div>
+            </div>
+            <form class="ui form" action="/login" method="POST">
+                <div class="field">
+                    <label>Username</label>
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+
+                <input class="ui primary button" type="submit">
+            </form>
+        </div>  
+        </div>  
+</div>
+
+
+<% include partials/footer %>

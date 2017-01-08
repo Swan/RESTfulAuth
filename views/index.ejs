@@ -1,0 +1,39 @@
+<% include partials/header %>
+
+<div class="ui main text container">
+    
+    <div class="ui huge header"><i class="icon code"></i>RESTfulAuth</div>
+    <div class="ui header">~ A simple example of doing auth with REST using Express.js</div>
+    
+    <div class="ui top attached segment">
+        
+        <div class="ui divided items">
+            
+            <% blogs.forEach(function(blog){ %>
+            
+                <div class="item">
+                    <div class="image"><img src="<%= blog.image %>"></div>
+                </div>
+                
+                <div class="content">
+                        <a class="header" href="/blogs/<%=blog._id%>"><%= blog.title %></a>
+                        <div class="meta">
+                            <span><%= blog.create.toDateString() %></span>
+                        </div>
+                        <div class="description">
+                            <p><%- blog.body.substring(0, 100) %>...</p>
+                        </div>
+                        <div class="extra">
+                            <a class="ui primary button" href="/blogs/<%=blog._id%>">Read More</a>
+                        </div>
+                </div>
+            <%})%>
+        </div>  
+     </div>
+</div>
+
+
+
+
+
+<% include partials/footer %>

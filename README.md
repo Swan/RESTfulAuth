@@ -22,10 +22,13 @@ This repository covers some of the basics of:
 
 # Usage
 Install all dependencies
+
 `npm install express.js body-parser ejs express-sanitzer express-session method-override mongoose passport passport-local passport-local-mongoose --save`
 
 Run MongoDB
+
 `./monogod`
 
 Start the server
+
 `node app.js`

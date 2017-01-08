@@ -34,6 +34,8 @@ app.use(require("express-session")({
 }));
 ```
 
+* Configure MongoDB
+
 * Run MongoDB
 
 `./monogod`

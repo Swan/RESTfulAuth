@@ -1,5 +1,5 @@
 # RESTfulAuth
-This is mainly used for reference for myself later on down the road so I don't have to waste time googling things. Regardless, this is a demo blog application using Express.js to demonstrate authentication, while following REST conventions. This is purely for reference and should not be used at all.  
+This is mainly used for reference for myself on authentication with Express & using REST. Regardless, this is a demo blog application using Express.js to demonstrate authentication, while following REST conventions. This is purely for reference and should not be used at all.  
 
 This repository covers some of the basics of: 
 * REST

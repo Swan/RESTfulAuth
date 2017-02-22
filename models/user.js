@@ -9,6 +9,4 @@ var userSchema = new mongoose.Schema({
 // Adds PLM methods that are useful for user auth!
 userSchema.plugin(passportLocalMongoose);
 
-// REMINDER!!!! ALWAYSSSS EXPORTTTTTTTT LASSSSSSTTTTTTTT. I just wasted 10 minutes trying to figure out why and I just had to switch two lines.
-//dasjlkdaslkkjdsasjlkdasj;dsajk;klsaj;lksajd yes i raged
 module.exports = mongoose.model("User", userSchema); 
